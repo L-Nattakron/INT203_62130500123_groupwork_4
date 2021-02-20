@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+}
+
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto
+}
+
+.title{
+    color: white;
+    font-weight: 600;
+    font-size: 40px;
+    position: relative;
+    text-align: center  
+}
+
+.card {
+    border: none;
+    cursor: pointer
+}
+
+.card-img-top{
+    object-fit: cover
+}
+
+.like{
+    color:red
+}
+
+.heart:hover {
+    color:palevioletred
+}
+
+.show{
+    display: none;
+}
+
+.lightbox{
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 1.5em;
+    background: rgba(0, 0, 0, 0.8);
+}
+.Image{
+    padding-left: 25%;
+}
+.Image img{
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    justify-items: center;
+}
+.fa-times{
+    color: white;
+    z-index: 999;
+    float: right;
+    font-size: 25px;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    overflow: hidden;
+}
+.fa-times:hover{
+    opacity: 0.5;
+}
